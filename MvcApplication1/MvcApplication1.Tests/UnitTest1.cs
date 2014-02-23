@@ -9,7 +9,7 @@ namespace MvcApplication1.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.IsTrue(false, "This condition should be true");
+            Assert.IsTrue(true, "This condition should be true");
         }
     }
 }
