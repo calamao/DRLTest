@@ -20,6 +20,8 @@ namespace MvcApplication1.Models
         {
         }
 
+        asfdadfas
+
         public DbSet<TodoItem> TodoItems { get; set; }
         public DbSet<TodoList> TodoLists { get; set; }
     }
