@@ -7,8 +7,10 @@ if (-not($target)) {
     Write-Output "You must provide a deployment location param as second item. Exiting!"
     Exit
 }
- 
-Copy-Item 'MvcApplication1' "${target}\MvcApplication1\" -Force -Recurse
 
-#Copy-Item 'SameWebsite\Content' "${target}\Websites\SampleWebsite\" -Force -Recurse
-#Copy-Item 'SameWebsite\Scripts' "${target}\Websites\SampleWebsite\" -Force -Recurse
+Write-Output "Write this text as output"
+
+# Copy-Item 'MvcApplication1' "${target}\MvcApplication1\" -Force -Recurse
+
+# Copy-Item 'SameWebsite\Content' "${target}\Websites\SampleWebsite\" -Force -Recurse
+# Copy-Item 'SameWebsite\Scripts' "${target}\Websites\SampleWebsite\" -Force -Recurse
